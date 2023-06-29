@@ -1,3 +1,366 @@
+
+.middle{
+    /* border: 2px solid green; */
+}
+
+.plus{
+    background-color: #EB4600;
+    color: white;
+    width: 33px;
+    margin-left: 590px;
+    margin-bottom: 50px;
+    border-radius: 5000px;
+    /* padding:2px 1px 2px 1px; */
+    margin-bottom: -16px;
+    transform: rotate(-4.3deg);
+    font-size: 27px; 
+    text-align: center; 
+}
+
+#plus1{
+    margin-left: 200px;
+}
+
+.contact{
+    font-family:Helvetica;
+    letter-spacing: -0.05em;
+    font-size: 3em;
+    font-weight: 550;
+    text-align:center;
+    color: #00084A;
+}
+
+.form{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;    
+}
+
+.touch{
+    font-family:Helvetica;
+    letter-spacing: -0.05em;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: start;
+    color: #00084A;   
+  }
+
+  .first{
+    width: 100%;
+  }
+
+  .second1{
+    /* border: 2px solid pink; */
+    width: 55%;
+
+  }
+
+  .second2{
+    /* border: 2px solid red; */
+    width: 45%;
+  }
+
+  .third{
+   /* border: 2px solid black; */
+  }
+
+  .fourth{
+    /* border: 2px solid purple; */
+  }
+
+
+  .tag{
+    color:  #6E7075;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    margin-bottom: 5px;
+    line-height: 30px;
+  }
+
+.input1{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;  
+  }
+
+  .input2{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .input3{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;  
+  }
+
+  .input4{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .input5{
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+  }
+
+  .left{
+    /* border: 2px solid green; */
+    width: 65%;
+  }
+ 
+  .leftchild{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .second{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+  }
+
+ 
+.left{
+    border-right: 1px solid #000000;
+    padding-left: -40px
+}
+
+.submit{
+    color: white;
+    background-color:  #EB4600;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 40px;
+    margin-top: 50px;
+    width: 15%;
+    margin-left: 75%;
+    border-radius: 10px;
+}
+
+.right{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 40px;
+    width: 30%;
+    /* margin-right: -40px; */
+    float: right;
+    margin-top: -650px;  
+}
+@media only screen and (max-width: 1200px){
+    .media{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .media2{
+        display: block;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .oasisimage{
+        margin-left: 5%;
+    }
+ 
+    .container1{
+        display: none;
+        margin-left: -200px;
+    }
+
+    .burger{
+        display: flex;
+        margin-right: 1%;
+        margin-left: 220px;
+        padding-top: 10px;
+    }
+
+    .right{
+        display: none;
+
+    }
+    .left{
+        border-right: 0px solid black;
+        width: 100%;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .second1{
+        width: 100%;
+    }
+
+    .leftchild{
+        width: 90%;
+
+    }
+
+    .input2{
+        width: 100%;
+    }
+
+    .second2{
+        width: 100%;
+    }
+
+    .input3{
+        width: 100%;
+    }
+
+    .input5{
+        height: 40px;
+    }
+
+    .submit{
+        width: 90%;
+        margin-left: 0;
+        padding: 15px 30px;
+    }
+
+    .touch{
+        display: none;
+    }
+
+    .contact{
+        font-size: 3em;
+    }
+
+    .mediaicons{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .via{
+        color:  #6E7075;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.4px;
+        align-items: center;
+        margin-left: 180px;
+        padding-top: 50px;
+    }
+
+    img.insta1{
+        /* color: red; */
+        width: 70px;
+        margin-left: -4px;
+    }
+    
+    img.linke{
+        width:50px;
+    }
+    
+    img.gmail{
+        width: 50px;
+    }
+    
+     img.tweet{
+        width: 50px;
+    }
+    
+    img.fb{
+        width: 50px;
+    }
+}
+
+
+
+
+
+
+.contact1{
+    font-family:Helvetica;
+    letter-spacing: -0.05em;
+    font-size: 28px;
+    font-weight: 550;
+    text-align: start;
+    color: #00084A;
+    margin-bottom: 20px;
+}
+
+.mail1{
+    display: flex;
+    align-items: center;
+}
+
+.linkedln{
+    display: flex;
+    align-items: center;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+}
+
+.twitter{
+    display: flex;
+    align-items: center;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+}
+
+
+img.insta1{
+    /* color: red; */
+    width: 40px;
+    margin-left: -4px;
+}
+
+img.linke{
+    width:30px;
+}
+
+img.gmail{
+    width: 30px;
+}
+
+ img.tweet{
+    width: 30px;
+}
+
+img.fb{
+    width: 30px;
+}
+
+.right{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+     
+}
+
 .footer{
     display: flex;
     
@@ -23,7 +386,7 @@
     margin-left: 10px;
     font-family: 'Inter', sans-serif;
     font-size:12px;
-    border: 2px solid wheat;
+    /* border: 2px solid wheat; */
   }
 
 .oasisimage2{
@@ -104,7 +467,7 @@
 }
 
 .media{
-    display: none;
+    display:none;
 }
 
 .subdiv3left{
@@ -125,6 +488,25 @@
     justify-content: space-around;
 }
 
+.oasisimage{
+    margin-left: 40px;
+    /* border: 2px solid yellow; */
+    width: 30%;
+}
+
+.oasisimage2{
+    margin-left: -25px;
+    color: white;
+    height: -900px;
+    margin-top: -50px;
+}
+
+.initiative{
+    font-size: 9px;
+    margin-left: 40px;
+    letter-spacing: 0.72em;
+    margin-top: -5px;
+}
 
 @media screen and (max-width: 600px) {
     .footer{
