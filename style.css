@@ -159,15 +159,21 @@
     float: right;
     margin-top: -650px;  
 }
-@media only screen and (max-width: 1200px){
-    .media{
-        display: none;
-    }
+
+
+.media{
+    display:none;
 }
 
 @media only screen and (max-width: 600px){
-    .media2{
-        display: block;
+    .media{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .via{
+        text-align: center;
     }
 }
 
@@ -264,7 +270,7 @@
         font-family: 'Inter', sans-serif;
         letter-spacing: 0.4px;
         align-items: center;
-        margin-left: 180px;
+        /* margin-left: 180px; */
         padding-top: 50px;
     }
 
@@ -466,9 +472,6 @@ img.fb{
     margin-left: -5px;
 }
 
-.media{
-    display:none;
-}
 
 .subdiv3left{
     width: 55%;
