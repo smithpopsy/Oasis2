@@ -1,4 +1,48 @@
-
+.nav{
+    /* border: 2px solid green; */
+    display: flex; 
+ }
+ 
+ .oasisimage{
+     margin-left: 40px;
+     /* border: 2px solid yellow; */
+     width: 30%;
+ }
+ 
+ .initiative{
+     font-size: 9px;
+     margin-left: 40px;
+     letter-spacing: 0.72em;
+     margin-top: -5px;
+ }
+ 
+ 
+ .container1{
+     width: 70%;
+     /* border: 2px solid black; */
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .item1{
+     font-family: 'Inter', sans-serif;
+     color: #111111;
+     font-weight: 400;
+     font-size: 13px;    
+ }
+ 
+ #donate{
+     background-color: #EB4600;
+     color: white;
+     padding:12px 40px;
+     border-radius: 8px;
+ }
+ 
+ .burger{
+     display: none;
+ }
+ 
 .middle{
     /* border: 2px solid green; */
 }
